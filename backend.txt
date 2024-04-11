@@ -1,0 +1,20 @@
+npm init 
+index.js
+node index.js
+
+// db connection
+npm i mongodb@5.0.1
+
+npm install --save-dev nodemon
+
+package.json - script -     "start":"nodemon index.js"
+
+mongodb atlas
+
+First - register
+
+then create deployment
+
+security - data base access - username & password
+
+mongodb+srv://Anish:<password>@cluster0.5pv6zhf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
