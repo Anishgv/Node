@@ -21,7 +21,7 @@ export function addStudent (data){
     return client
     .db("TTS")
     .collection("students")
-    .insertMany(data)
+    .insertOne(data)
 }
 
 export function updateStudents (id,editData){
